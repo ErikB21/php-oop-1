@@ -28,6 +28,7 @@
         }
         //riporto la descrizione in modo da darne una per ogni film
         public function getDescription($text){
+            $this->description = $text;
             return '<p>' . $text . '</p>' ;
         }
 
