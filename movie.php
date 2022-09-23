@@ -26,8 +26,11 @@
         }
         //riporto la descrizione in modo da darne una per ogni film
         public function setDescription($text){
-            $this->description = $text;
             return '<p>' . $text . '</p>' ;
+        }
+
+        public function getDescription(){
+            return $this->description;
         }
 
         //riporto tutto ciò che stampo
